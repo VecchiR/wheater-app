@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
-      title: "", // ---------------------> DON'T FORGET TO ADD TITLE HERE!!
+      title: "Weather App", // ---------------------> DON'T FORGET TO ADD TITLE HERE!!
     }),
   ],
   module: {
